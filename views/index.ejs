@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoCards</title>
+    <!--Estilos de tailwind solamente-->
+    <link rel="stylesheet" href="/css/tailwindStyles.css">
+    <!--al establecer a 'public' como la carpeta de archivos estaticos en express, la ruta debe escribirse tomando a public como punto de partida-->
+    <!--Mis estilos-->
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="p-4 flex justify-between items-center bg-blue-800">
+        <!-- Icono en la esquina superior izquierda -->
+        <div class="text-white">
+            <i class="fas fa-bars text-lg"></i>
+        </div>
+
+        <!-- Links en el centro -->
+        <nav class="flex space-x-4">
+            <a href="#" class="text-white">Inicio</a>
+            <a href="#" class="text-white">Inicio2</a>
+            <a href="#" class="text-white">Inicio3</a>
+            <a href="#" class="text-white">Inicio4</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <div class="container mx-auto p-8">
+        <!-- Imagen con texto y botón -->
+        <div class="bg-white p-8 rounded-md shadow-md text-center">
+            <img src="tu-imagen.jpg" alt="Descripción de la imagen" class="mx-auto mb-4 rounded-md">
+            <h2 class="text-xl font-semibold mb-4">Texto sobre la imagen</h2>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded-md">Mi Botón</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
