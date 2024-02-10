@@ -9,5 +9,9 @@ server.get('/', (req, res) => {
     res.render('index');
 });
 
+server.get('/dashboard', (req, res) => {
+    res.render('dashboard');
+});
+
 server.listen(3132);
 console.log('server on port 3132');
