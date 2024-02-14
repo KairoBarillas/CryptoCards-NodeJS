@@ -1,0 +1,51 @@
+.bgColorMorado1 {
+    background-color: #200034;
+}
+
+.bordeTopBottomAmarillo1 {
+    border-bottom: 2px solid #EAA206;
+    border-top: 2px solid #EAA206;
+}
+
+.rotate23 {
+    transform: rotate(-23deg);
+}
+
+.fuenteBlanca {
+    color: #fff;
+}
+
+.fuenteAmarilla {
+    color: #EAA206
+}
+
+.gradienteMoradoBlanco {
+    background: linear-gradient(to bottom,
+            #1C012F,
+            #CE88FE,
+            #F6E8FF);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inria-sans-light {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.inria-sans-regular {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inria-sans-bold {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.juntarLetras {
+    letter-spacing: -3px;
+}
