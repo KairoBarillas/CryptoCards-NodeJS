@@ -49,3 +49,31 @@
 .juntarLetras {
     letter-spacing: -3px;
 }
+
+.picosMoradosBackground {
+    background-image: url('../img/stacked-peaks-haikei.svg');
+    background-size: cover auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.sombraHeader {
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.45);
+}
+
+.sobraCardInicio {
+    box-shadow: 8px 8px 6px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 8px 8px 6px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 8px 8px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.gradienteCardInicio {
+    background: rgb(100, 3, 162);
+    background: linear-gradient(135deg, rgba(100, 3, 162, 1) 20%, rgba(240, 220, 252, 1) 100%);
+}
+
+.bordeRedondeado {
+    border-radius: 3rem;
+}

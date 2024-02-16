@@ -2,7 +2,9 @@
 export default {
     content: ["views/*.ejs"],
     theme: {
-        extend: {},
+        extend: {
+            animation: ['motion-safe']
+        },
     },
     plugins: [],
 }
