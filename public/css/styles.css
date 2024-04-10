@@ -77,3 +77,10 @@
 .bordeRedondeado {
     border-radius: 3rem;
 }
+
+.lowPolyBackground {
+    background-image: url('../img/low-poly-grid-haikei-1-1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
