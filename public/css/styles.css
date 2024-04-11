@@ -84,3 +84,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.relacionAspectoMant {
+    object-fit: contain;
+}
