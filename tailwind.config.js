@@ -3,7 +3,10 @@ export default {
     content: ["views/*.ejs"],
     theme: {
         extend: {
-            animation: ['motion-safe']
+            animation: ['motion-safe'],
+            screens: {
+                'xs': { 'max': '639px' }
+            }
         },
     },
     plugins: [],
