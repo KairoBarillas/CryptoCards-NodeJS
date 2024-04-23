@@ -126,6 +126,28 @@
 /**/
 .noticiasBackground {
     background-image: url('../img/Trade_the_Bitcoin_stock_market_on_smartphone.png');
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
+}
+
+.margenTopTituloNoticias {
+    margin-top: 50rem;
+}
+
+/* Estilos personalizados para el slider */
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.cursorDraggable:hover {
+    cursor: grab;
+}
+
+.cursorDraggable:active {
+    cursor: grabbing;
 }
